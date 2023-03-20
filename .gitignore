@@ -1,0 +1,5 @@
+/build
+/node_modules
+.vscode
+.loki/report.json
+.loki/report.html

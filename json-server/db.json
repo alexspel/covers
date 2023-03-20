@@ -1,0 +1,128 @@
+{
+    "covers": [
+        {
+            "id": 1,
+            "model": "model 1",
+            "color": "black",
+            "width": 1000,
+            "height": 2000
+        },
+        {
+            "id": 2,
+            "model": "model 2",
+            "color": "white",
+            "width": 1500,
+            "height": 2300
+        },
+        {
+            "id": 3,
+            "model": "model 3",
+            "color": "green",
+            "width": 1000,
+            "height": 1000
+        }
+    ],
+    "contracts": [
+        {
+            "id": 1,
+            "clientId": 1,
+            "conditions": "Только зеленые ковры",
+            "comments": "123",
+            "startDate": "01.01.2023",
+            "finishDate": null,
+            "replaceLimit": 4,
+            "sumLimit": null
+        },
+        {
+            "id": 2,
+            "clientId": 2,
+            "conditions": "",
+            "comments": "Нужен спецпропуск",
+            "startDate": "01.02.2023",
+            "finishDate": null,
+            "replaceLimit": null,
+            "sumLimit": 10000
+        }
+    ],
+    "clients": [
+        {
+            "id": 1,
+            "name": "ООО \"Зеленоглазое такси\"",
+            "docId": 1,
+            "tarif": 100.05
+        },
+        {
+            "id": 2,
+            "name": "ООО \"Рога и копыта\"",
+            "docId": 2,
+            "tarif": 200
+        }
+    ],
+    "points": [
+        {
+            "id": 1,
+            "clientId": 1,
+            "address": "Союз печатников, дом 25А",
+            "title": "Жилой дом",
+            "office": "цокольный этаж",
+            "weekends": true,
+            "holidays": true,
+            "status": "active",
+            "interval": "Каждую неделю",
+            "days": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 2,
+            "clientId": 1,
+            "address": "Союз печатников, дом 25Б",
+            "title": "Жилой дом",
+            "office": "1 этаж, офис 10",
+            "weekends": false,
+            "holidays": true,
+            "status": "active",
+            "interval": "Каждую 2ю неделю",
+            "days": [
+                0,
+                2,
+                4,
+                6
+            ]
+        },
+        {
+            "id": 3,
+            "clientId": 2,
+            "street": "street 333",
+            "office": "office 333",
+            "weekends": false,
+            "holidays": true,
+            "days": [
+                0,
+                2,
+                4,
+                6
+            ]
+        },
+        {
+            "id": 4,
+            "clientId": 2,
+            "street": "street 4444",
+            "office": "office 4444",
+            "weekends": false,
+            "holidays": true,
+            "days": [
+                0,
+                2,
+                4,
+                6
+            ]
+        }
+    ]
+}

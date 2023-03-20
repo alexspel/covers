@@ -1,0 +1,14 @@
+{
+  "Test example": "Тестовый пример",
+  "Translate": "Перевод",
+  "lang": "Русский",
+  "lang code": "Рус",
+  "About page": "О сайте",
+  "Main page": "Главная страница",
+  "Page not found": "Страница не найдена",
+  "Throw error": "Ошибка",
+  "Throw error short": "Баг",
+  "Reload": "Перезагрузить",
+  "point_status_active": "Действует",
+  "point_status_disabled": "Остановлена"
+}

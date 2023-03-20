@@ -1,0 +1,13 @@
+.ClientCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+}

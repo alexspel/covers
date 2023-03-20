@@ -1,0 +1,23 @@
+.PointForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.formInput {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    span {
+        max-width: 30%;
+    }
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

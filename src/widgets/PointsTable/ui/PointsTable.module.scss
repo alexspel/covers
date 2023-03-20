@@ -1,0 +1,41 @@
+.PointsTable {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.table {
+    width: 100%;
+
+    // input[type='checkbox'] {
+
+    // }
+    tr {
+    }
+    tr.hover {
+        &:hover {
+            cursor: pointer;
+
+            background-color: rgb(4, 237, 237);
+        }
+    }
+    th {
+        border: 1px solid #ccc;
+        text-align: center;
+        vertical-align: middle;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    td {
+        border: 1px solid #ccc;
+        padding: 4px 8px;
+        border-radius: 5px;
+        vertical-align: middle; 
+    }
+}
+
+.icon {
+    fill: var(--font-color);
+}
